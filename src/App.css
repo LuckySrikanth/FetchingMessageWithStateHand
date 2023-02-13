@@ -1,0 +1,42 @@
+
+.message-container {
+  background-image: url("./knit-2383066.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+.two-cards {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px;
+}
+.one-card {
+  width: 50%;
+  padding: 10px;
+  border: 2px dotted black;
+}
+.two-card {
+  width: 50%;
+  padding: 10px;
+}
+p {
+  color: black;
+  font-size: 15px;
+  font-weight: 600;
+}
+span {
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "Roboto";
+  color: white;
+}
+.heading {
+  text-align: center;
+}
+.particularIdcard {
+  background-color: transparent;
+  border: 2px solid black;
+  padding: 15px;
+}
